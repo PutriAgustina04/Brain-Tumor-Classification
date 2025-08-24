@@ -29,16 +29,3 @@ This application uses Convolutional Neural Networks (CNN) to classify brain tumo
 - Scikit-learn
 
 ---
-
-## 🚀 How to Run
-
-```bash
-# 1. Clone this repo
-git clone https://github.com/username/brain-tumor-classification.git
-cd brain-tumor-classification
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run the Streamlit app
-streamlit run app.py
