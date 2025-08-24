@@ -1,0 +1,54 @@
+/* style.css */
+
+/* Gaya Umum */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;  /* Warna biru muda */
+    color: #333;
+}
+
+.stButton>button {
+    background-color: #0077b6;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #005f8a;  /* Warna biru lebih gelap saat hover */
+}
+
+.stFileUploader {
+    background-color: #e0f7fa;
+    border: 2px dashed #0077b6;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Kotak Informasi Model */
+.model-info-box {
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #0077b6;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Gaya Header dan Subheader */
+header {
+    color: #0077b6;
+    font-size: 1.5em;
+}
+
+.subheader {
+    font-size: 1.2em;
+    color: #0077b6;
+}
